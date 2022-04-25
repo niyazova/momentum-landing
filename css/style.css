@@ -9,10 +9,10 @@ header {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient( to right, #CF0063, #450E4B);
+    background: linear-gradient( to right, #CF0063, #450E4B 100%);
 }
 nav {
-    padding: 20px 115px;
+    padding:25px 135px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,3 +32,33 @@ nav {
     color: white;
     font-size: 16px;
 }
+
+        /* ---box--- */
+
+.box {
+    margin: 46px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.box__left {
+    margin-top: 70px;
+}
+.left__title {
+    font-size: 75px;
+    color: white;
+    font-weight: 200;
+}
+.left__subtitle {
+    font-size: 25px;
+    color: white;
+}
+.left__btn {
+    margin-top: 25px;
+    height: 48px;
+    width: 150px;
+    background: #FC0A7E;
+    color: white;
+    border: none;
+    outline: none;
+}
+

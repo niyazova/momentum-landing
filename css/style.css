@@ -36,7 +36,7 @@ nav {
         /* ---box--- */
 
 .box {
-    margin: 46px 140px;
+    padding: 40px 140px;
     display: flex;
     justify-content: space-between;
 }
@@ -61,4 +61,22 @@ nav {
     border: none;
     outline: none;
 }
+
+   /* main */
+
+   .main {
+       margin-top: -70px;
+       background: #1B1B1B;
+       text-align: center;
+   }
+   .main__subtitle {
+       padding-top: 110px;
+       color: #A8A8A8;
+       font-size: 12px;
+   }
+   .main__title {
+       color: white;
+       font-size: 35px;
+       padding-top: 25px;
+   }
 
